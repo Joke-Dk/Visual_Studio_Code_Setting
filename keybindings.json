@@ -1,0 +1,27 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "alt+h",
+        "command": "extension.vim_left",
+        "when": "editorTextFocus && !inDebugRepl"
+    },
+    {
+        "key": "alt+l",
+        "command": "extension.vim_right",
+        "when": "editorTextFocus && !inDebugRepl"
+    },
+    {
+        "key": "alt+k",
+        "command": "extension.vim_up",
+        "when": "editorTextFocus && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "alt+j",
+        "command": "extension.vim_down",
+        "when": "editorTextFocus && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.terminate"
+    }
+]
