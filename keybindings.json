@@ -23,5 +23,10 @@
     {
         "key": "ctrl+t",
         "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-multiclip.paste",
+        "when": "editorTextFocus && editorLangId != 'markdown'"
     }
 ]

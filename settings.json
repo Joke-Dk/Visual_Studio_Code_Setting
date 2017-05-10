@@ -1,14 +1,12 @@
 // 将设置放入此文件中以覆盖默认设置
 {
     "python.pythonPath": "C:/Users/dk/Anaconda2/python",
-    "python.linting.pylintEnabled": false,
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vs-seti",
     "workbench.sideBar.location": "left",
     "window.zoomLevel": 0,
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
-    "python.linting.pep8Enabled": true,
     "python.jupyter.defaultKernel": "python2",
     "vim.insertModeKeyBindings": [
         {
@@ -17,5 +15,8 @@
         }
     ],
     "editor.renderIndentGuides": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Args": ["--max-line-length=120"]
 }
