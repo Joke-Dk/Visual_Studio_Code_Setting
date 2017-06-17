@@ -1,7 +1,6 @@
 // 将设置放入此文件中以覆盖默认设置
 {
     "python.pythonPath": "C:/Users/dk/Anaconda2/python",
-    "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vs-seti",
     "workbench.sideBar.location": "left",
     "window.zoomLevel": 0,
@@ -18,5 +17,13 @@
     "editor.renderWhitespace": "all",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.flake8Args": ["--max-line-length=120"]
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "editor.wordWrapColumn": 120,
+    "vim.textwidth": 120,
+    "workbench.colorTheme": "Monokai",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "python.terminal.executeInFileDir": true,
+    "vim.disableAnnoyingNeovimMessage": true
 }
